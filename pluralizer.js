@@ -14,3 +14,18 @@ var pluralizer = function(number, noun) {
 var result = pluralizer(5, "cat");
 
 console.log(result);
+
+/*
+
+// Dell's Solution
+
+var count = "5"
+var thing = "cat"
+pluralChar = "";
+
+if ( parseInt(count) > 1) {
+	pluralChar =  "s";
+}
+console.log(count, thing + pluralChar);
+
+*/
